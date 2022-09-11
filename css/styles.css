@@ -260,8 +260,23 @@ ul {
   margin: 0 -15px;
 }
 .picture {
+  position: relative;
   display: flex;
   margin: 0 15px;
+}
+
+.picture__caption {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--brand-color-third);
+  margin: 0;
 }
 
 .team {
