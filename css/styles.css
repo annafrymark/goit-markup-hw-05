@@ -747,11 +747,10 @@ figcaption {
   height: 30px; */
   background-color: var(--brand-color-third);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  /* border-radius: 50%; */
+  border-radius: 50%;
   cursor: pointer;
   display: flex;
-  border: none;
-  padding: 0;
+  padding: 6px;
   /* animation: disappear 15s forwards both; */
 }
 
