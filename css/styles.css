@@ -385,8 +385,7 @@ ul {
 .team__social-icon:focus-within .social-icon,
 .team__social-icon:hover .social-icon {
   fill: var(--brand-color-third);
-  background-color: var(--brand-color-second);
-}
+ }
 
 /* .team__social-icon .social-icon :focus,
 .team__social-icon .social-icon :hover {
@@ -447,7 +446,7 @@ ul {
   margin-bottom: 34px;
 }
 .btn {
-  background-color: F5F4FA;
+  background-color: #F5F4FA;
   border-width: 0;
   height: 38px;
   font-family: "Roboto";
